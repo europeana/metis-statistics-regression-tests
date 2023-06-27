@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Deepti Pandit/IdeaProjects/Statistics_Dashboard">
+        <classes>
+            <class name="View_By_Content_tier.Chrome_Test">
+                <methods>
+                    <include name="TestStatisticsDashboard"/>
+                </methods>
+            </class>
+            <class name="View_By_Content_tier.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Content_tier.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Countries.Chrome_Test">
+                <methods>
+                    <include name="TestStatisticsDashboard"/>
+                </methods>
+            </class>
+            <class name="View_By_Countries.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Countries.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Data_provider.Chrome_Test">
+                <methods>
+                    <include name="TestStatisticsDashboard"/>
+                </methods>
+            </class>
+            <class name="View_By_Data_provider.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Data_provider.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Metadata_tier.Chrome_Test">
+                <methods>
+                    <include name="TestStatisticsDashboard"/>
+                </methods>
+            </class>
+            <class name="View_By_Metadata_tier.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Metadata_tier.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Rights_Category.Chrome_Test">
+                <methods>
+                    <include name="TestStatisticsDashboard"/>
+                </methods>
+            </class>
+            <class name="View_By_Rights_Category.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Rights_Category.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Type.Chrome_Test">
+                <methods>
+                    <include name="TestStatisticsDashboard"/>
+                </methods>
+            </class>
+            <class name="View_By_Type.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="View_By_Type.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="View_By_provider.Chrome_Test">
+                <methods>
+                    <include name="TestStatisticsDashboard"/>
+                </methods>
+            </class>
+            <class name="View_By_provider.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="View_By_provider.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
