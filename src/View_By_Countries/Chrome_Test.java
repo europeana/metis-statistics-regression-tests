@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 import static util.ConfigReader.*;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Chrome_Test {
 
@@ -22,12 +23,14 @@ public class Chrome_Test {
     @Test
     public void TestStatisticsDashboard() throws InterruptedException, IOException {
         //if (browser.equalsIgnoreCase("chrome")) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepti Pandit\\IdeaProjects\\Sandbox_Regression_Acceptance_1\\Resources\\chromedriver.exe");
+       // String driverPath = System.getProperty("driverPath2");
+       System.setProperty("webdriver.chrome.driver","C:\\Users\\Deepti Pandit\\IdeaProjects\\Metis-UI-Test\\Resources\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
+        //WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver(options);
         driver.get(getUrl());
-        // maximize the browser
+        // maximize the browsergt
         driver.manage().window().maximize();
         Thread.sleep(5000);
 

@@ -19,7 +19,7 @@ public class Firefox_Test {
 
     @Test
     public void FirefoxTest() throws InterruptedException, IOException {
-        System.setProperty("webdriver.firefox.driver", "C:\\Users\\Deepti Pandit\\IdeaProjects\\Sandbox_Regression_Acceptance_1\\Resources\\geckodriver.exe");
+        String driverPath = System.getProperty("driverPath");
         WebDriver driver = new FirefoxDriver();
         driver.get(getUrl());
         // maximize the browser

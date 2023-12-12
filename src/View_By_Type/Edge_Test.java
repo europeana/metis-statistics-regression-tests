@@ -20,7 +20,8 @@ public class Edge_Test {
     @Test
     public void EdgeTest() throws InterruptedException, IOException {
         //if (browser.equalsIgnoreCase("chrome")) {
-        System.setProperty("webdriver.edge.driver", "C:\\Users\\Deepti Pandit\\IdeaProjects\\Sandbox_Regression_Acceptance_1\\Resources\\msedgedriver.exe");
+        String driverPath = System.getProperty("driverPath1");
+        //System.setProperty("webdriver.edge.driver", "C:\\Users\\Deepti Pandit\\IdeaProjects\\Sandbox_Regression_Acceptance_1\\Resources\\msedgedriver.exe");
         EdgeOptions options = new EdgeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new EdgeDriver(options);
